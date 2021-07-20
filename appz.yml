@@ -11,7 +11,7 @@ build:
     image_template: alertmanager-0.20
 
 deploy:
-    context: eeshaachakala16/DEV
+    context: eeshaachakala1/DEV
     type: statefulset
     replicas: 1
     port:
